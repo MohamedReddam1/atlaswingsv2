@@ -1,0 +1,195 @@
+/*home.css*/
+
+.mainSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSection .videoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSection .imageDiv{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.titleDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.video{
+    width: 50%;
+    border-radius: 50em;
+}
+
+.videoDiv{
+    position: absolute;
+    top: 21em;
+    
+}
+
+.image{
+    width: 50%;
+    margin-right: 7em;
+}
+
+.imageDiv{
+    position: absolute;
+    top: 17em;
+   
+}
+
+.titleDiv{
+    position: absolute;
+    top: 10em;
+}
+
+.title{
+    font-size: 3.2em;
+}
+
+.para{
+    font-size: 1.2em;
+}
+
+
+@media (max-width:576px){
+
+    .mainSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mainSection .videoDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mainSection .imageDiv{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .mainSection .titleDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image{
+        width: 60%;
+        margin-right: 2em;
+    }
+
+    .video{
+        width: 70%;
+        border-radius: 50em;
+    }
+    
+
+    .imageDiv{
+        position: absolute;
+        top: 16em;
+    }
+
+    .videoDiv{
+        position: absolute;
+        top: 17em;
+    }
+
+    .titleDiv{
+        position: absolute;
+        top: 10em;
+    }
+
+    .title{
+        font-size: 1.4em;
+    }
+
+    .para{
+        font-size: 0.7em;
+    }
+};
+
+
+@media (max-width:768px){
+    .mainSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mainSection .videoDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mainSection .imageDiv{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .mainSection .titleDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image{
+        width: 60%;
+        margin-right: 2em;
+    }
+
+    .video{
+        width: 70%;
+        border-radius: 50em;
+    }
+    
+
+    .imageDiv{
+        position: absolute;
+        top: 16em;
+    }
+
+    .videoDiv{
+        position: absolute;
+        top: 17em;
+    }
+
+    .titleDiv{
+        position: absolute;
+        top: 20em;
+    }
+
+    .title{
+        font-size: 1.1em;
+    }
+
+    .para{
+        font-size: 0.7em;
+    }
+};
+
+@media (max-width:992px){
+  
+};
+
+@media (max-width:1200px){
+  
+};

@@ -1,0 +1,157 @@
+.divTopTr {
+    position: absolute;
+    top: 140em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .TopTr{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  
+  .travelerItem {
+    width: 85%;
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .topTrTitle{
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .travelerItem:hover {
+    transform: scale(1.05);
+  }
+  
+  .placeImg {
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+  }
+  
+  .userPic {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 150px; /* adjust this value to your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 2px solid #fff; /* Add a border to the profile picture */
+    transition: bottom 0.3s ease-in-out;
+  }
+  
+  .username {
+    width: 100%;
+    position: relative;
+    height: 0px;
+    top: -160px; /* adjust this value to your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 100px;
+    opacity: 0; /* initially hidden */
+    transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .travelerItem:hover .userPic,
+  .travelerItem:hover .username {
+    position: relative;
+    bottom: 10em;
+    opacity: 1;
+  }
+
+  @media screen and (max-width:1200px) {
+    .divTopTr{
+      position: absolute;
+      top: 115em;
+    }
+  }
+
+
+  @media screen and (max-width:992px) {
+    .divTopTr{
+      position: absolute;
+      top: 150em;
+    }
+  }
+
+  @media screen and (max-width:768px){
+    .divTopTr{
+      position: absolute;
+      top: 120em;
+    }
+    .topTrTitle{
+      font-size: 1.3em;
+      text-align: center;
+      margin-left: 1em;
+      
+    }
+
+    .TopTr{
+      
+      grid-template-columns: repeat(2,1fr);
+    }
+
+    .travelerItem{
+      margin-left: 1.9em;
+    }
+  }
+
+
+  @media screen and (max-width:576px){
+
+    .divTopTr{
+      position: absolute;
+      top: 100em;
+    }
+    
+    .TopTr{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .topTrTitle{
+      font-size: 1.1em;
+      text-align: center;
+      margin-left: 1em;
+      
+    }
+
+    .travelerItem {
+      width: 70%;
+      position: relative;
+      margin: 20px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+      margin-left: 4em
+    }
+  };
+
+ 
+
+ 
+
+  
+  
+  
+  
+  
+  
+  

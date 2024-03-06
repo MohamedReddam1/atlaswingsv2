@@ -1,0 +1,182 @@
+/*slider.css*/
+
+.BestPlacesSection{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+  top: 275em;
+}
+
+
+.Btitle{
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  position: relative;
+  bottom: 10em;
+}
+
+.slider {
+  width: 75%;
+  height: 550px;
+  position: relative;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.slider:focus{
+  outline: none;
+  border: none;
+}
+
+.img {
+  width: 100%; /* Use 100% to fill the container */
+  height: 600px; /* Maintain the aspect ratio */
+  border-radius: 20px;
+}
+
+.slider-item {
+  text-align: center;
+}
+
+.city-name-overlay {
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 15px;
+  color: rgb(255, 255, 255);
+  text-shadow: 6px 6px 5px black;
+  margin-top: 10px; /* Adjust the margin as needed */
+  position: relative;
+
+  bottom: 5em;
+}
+
+
+
+
+/*Media Query*/
+
+@media (max-width:1200px){
+  .BestPlacesSection{    
+    top: 250em;
+  }
+  .slider {
+    width: 80%;
+    height: 350px;
+    margin-left: 2em;
+    margin-top: -3em;
+  }
+
+  .img {
+    width: 100%; /* Use 100% to fill the container */
+    height: 400px; /* Maintain the aspect ratio */
+    border-radius: 20px;
+  }
+
+  .city-name-overlay {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px 5px black;
+    margin-top: 10px; /* Adjust the margin as needed */
+    position: relative;
+  
+    bottom: 4.5em;
+  }
+}
+
+@media (max-width:768px){
+  .BestPlacesSection{    
+    top: 320em;
+  }
+  .slider {
+    width: 80%;
+    height: 300px;
+    margin-left: 2em;
+    margin-top: -3em;
+  }
+
+  .img {
+    width: 100%; /* Use 100% to fill the container */
+    height: 350px; /* Maintain the aspect ratio */
+    border-radius: 20px;
+  }
+
+  .city-name-overlay {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px 5px black;
+    margin-top: 10px; /* Adjust the margin as needed */
+    position: relative;
+  
+    bottom: 5.3em;
+  }
+}
+
+
+
+@media (max-width:576px){
+  .BestPlacesSection{
+    position: absolute;
+    top: 415em;
+    text-align: center;
+  }
+
+  .Btitle{
+    font-size: 1.1em;
+    position: relative;
+    bottom: 7em;
+    margin-left: 1em;
+    margin-bottom: 3em;
+  }
+
+  .slider {
+    width: 80%;
+    height: 150px;
+    position: relative;
+    left: 37%;
+    margin-left: 2em;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .slider:focus{
+    outline: none;
+    border: none;
+  }
+
+  .img {
+    width: 100%; /* Use 100% to fill the container */
+    height: 200px; /* Maintain the aspect ratio */
+    border-radius: 20px;
+  }
+
+  .city-name-overlay {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px 5px black;
+    margin-top: 10px; /* Adjust the margin as needed */
+    position: relative;
+  
+    bottom: 8.5em;
+  }
+};
+
+
+
+
+

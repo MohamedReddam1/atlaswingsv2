@@ -1,0 +1,284 @@
+.mainDivOffers{
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 236, 236);
+    position: absolute;
+    top: 190em;
+}
+
+.mainDivOffers .tt{
+    text-align: start;
+    font-size: 3em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.OffersSection{
+    width: 90%;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.offersCard{
+    width: 85%;
+    height: 150px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.divOffreTitle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.secTitle{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.iconTitle{
+    width: 20px;
+    height: 20px;
+    color: rgb(86, 86, 142);
+}
+
+.offerLink{
+    color: rgb(46, 46, 255);
+}
+
+.offerTitle{
+    margin-left: 0.5em;
+    font-size: 1em;
+    color: rgb(86, 86, 142);
+    font-weight: 550;
+}
+
+.divMore{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    color: rgb(46, 46, 255);
+    font-weight: lighter;
+}
+
+.divMore:hover .offerLink,
+.divMore:hover .arrow{
+    color: rgb(53, 53, 146);
+}
+
+.divDateFlight{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.divPrice{
+    display: flex;
+    justify-content: end;
+}
+
+.fromToFlight{
+    font-size: 1em;
+}
+
+.fromtodiv{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.icn{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.priceFlight{
+    font-weight: 600;
+    margin-right: 1em;
+}
+
+@media screen and (max-width:1500px) {
+    .mainDivOffers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 190em;
+    }
+
+    .OffersSection{
+        width: 95%;
+        
+    }
+
+    .offersCard{
+        width: 85%;
+        
+    }
+
+    .mainDivOffers .tt{
+        font-size: 1.5em;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .OffersSection{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mainDivOffers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 170em;
+    }
+
+    .OffersSection{
+        width: 95%;
+    }
+
+    .offersCard{
+        width: 85%;
+        
+    }
+
+    .mainDivOffers .tt{
+        font-size: 1.2em;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .OffersSection{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mainDivOffers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 190em;
+    }
+
+    .OffersSection{
+        width: 90%;
+    }
+
+    .offersCard{
+        width: 85%;
+        
+    }
+
+    .mainDivOffers .tt{
+        font-size: 1.2em;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .OffersSection{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainDivOffers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 210em;
+    }
+
+    .offersCard{
+        width: 80%;
+        margin-left: 1em;
+    }
+
+    .mainDivOffers .tt{
+        font-size: 1.1em;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .OffersSection{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mainDivOffers{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 270em;
+    }
+
+    .OffersSection{
+        width: 75%;
+    }
+
+    .offersCard{
+        margin-left: 1em;
+        
+    }
+
+    .mainDivOffers .tt{
+        font-size: 0.9em;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 1em;
+    }
+
+    .OffersSection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .fromToFlight{
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+
+
+

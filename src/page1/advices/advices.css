@@ -1,0 +1,262 @@
+.AdvicesDiv {
+    position: relative;
+    top: 20em;
+    width: 100%;
+    height: max-content;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    background-color: rgb(245, 245, 245);
+}
+
+.adTitle {
+    margin-left: 2em;
+    font-size: 30px;
+}
+
+.flexDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textDiv {
+    width: 200%;
+    margin-left: 6em;
+    margin-top: 3em;
+    float: left;
+}
+
+.imgs {
+    width: 30%;
+    border-radius: 20em;
+    float: right;
+}
+
+#img1 {
+    position: relative;
+    bottom: 5em;
+    right: 3em;
+}
+
+#img2 {
+    position: relative;
+}
+
+.divImgs {
+    margin-right: 10em;
+}
+
+span {
+    font-weight: 700;
+}
+
+.ad {
+    padding: 10px;
+    margin-left: 1em;
+}
+
+.adNum {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    margin-right: 1em;
+}
+
+.divAd {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .AdvicesDiv {
+        position: relative;
+        top: 20em;
+        width: 100%;
+        height: max-content;
+        padding-top: 3.5em;
+        padding-bottom: 3.5em;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .adTitle {
+        margin-left: 2em;
+        font-size: 30px;
+    }
+    
+    .flexDiv {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .textDiv {
+        width: 80%;
+        margin-top: 3em;
+        float: left;
+    }
+    
+    .imgs {
+        width: 50%;
+        border-radius: 20em;
+        float: right;
+    }
+    
+    #img1 {
+        width: 50%;
+        position: relative;
+        bottom: 5em;
+        right: 3em;
+    }
+    
+    #img2 {
+        position: relative;
+    }
+    
+    .divImgs {
+        display: none;
+    }
+    
+    span {
+        font-weight: 700;
+    }
+    
+    .ad {
+        padding: 10px;
+        margin-left: 1em;
+    }
+    
+    .adNum {
+        width: max-content;
+        height: max-content;
+        padding: 10px;
+        background-color: orange;
+        border-radius: 10px;
+        color: white;
+        margin-right: 1em;
+    }
+    
+    .divAd {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .AdvicesDiv {
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 30em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .divImgs{
+        display: none;
+    }
+
+    .AdvicesDiv {
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 50em;
+    }
+
+    .textDiv {
+        width: 50%;
+        margin-top: 3em;
+    }
+
+    .divAd h3 {
+        font-size: 0.8em;
+    }
+
+    .ad {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .AdvicesDiv {
+        top: 30em;
+    }
+
+    .adTitle {
+        font-size: 1.5em;
+    }
+
+    .flexDiv {
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .AdvicesDiv {
+        top: 50em;
+    }
+
+    .flexDiv{
+        margin-right: 2em;
+        margin-left: -2em;
+    }
+
+    .adTitle {
+        font-size: 1em;
+    }
+
+    .textDiv {
+        width: 100%;
+        margin-top: 3em;
+    }
+
+    .divAd h3 {
+        font-size: 0.7em;
+    }
+
+    .ad {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .AdvicesDiv {
+        top: 33em;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .flexDiv{
+        margin-right: 2em;
+        margin-left: -2em;
+    }
+
+    .adTitle {
+        font-size: 1em;
+    }
+
+    .textDiv {
+        width: 100%;
+        margin-top: 3em;
+    }
+
+    .divAd h3 {
+        font-size: 0.7em;
+    }
+
+    .ad {
+        font-size: 0.6em;
+    }
+}
