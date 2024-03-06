@@ -1,16 +1,35 @@
 {
   "files": {
-    "main.css": "/atlaswingsv2/static/css/main.f855e6bc.css",
-    "main.js": "/atlaswingsv2/static/js/main.50f99004.js",
+    "main.css": "/atlaswingsv2/static/css/main.d1fb14ba.css",
+    "main.js": "/atlaswingsv2/static/js/main.9a078099.js",
     "static/js/453.8fbc829b.chunk.js": "/atlaswingsv2/static/js/453.8fbc829b.chunk.js",
-    "static/media/logo.svg": "/atlaswingsv2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/video1.mp4": "/atlaswingsv2/static/media/video1.304f0f621cbeb2bd15e8.mp4",
+    "static/media/dubai.jpg": "/atlaswingsv2/static/media/dubai.a452de80763514775a20.jpg",
+    "static/media/paris.jpg": "/atlaswingsv2/static/media/paris.b630e9934db7a0311d35.jpg",
+    "static/media/tangier.jpg": "/atlaswingsv2/static/media/tangier.ad6fed7890b8a983feff.jpg",
+    "static/media/airplaneInterior.jpg": "/atlaswingsv2/static/media/airplaneInterior.a29cbd689ad1b6101cd8.jpg",
+    "static/media/airplaneWindow.jpg": "/atlaswingsv2/static/media/airplaneWindow.b29f69fee8ec95226039.jpg",
+    "static/media/losAngeles.jpg": "/atlaswingsv2/static/media/losAngeles.161087570ce87a887440.jpg",
+    "static/media/airplane.png": "/atlaswingsv2/static/media/airplane.ed5346af4037e8dace69.png",
+    "static/media/malaga.jpeg": "/atlaswingsv2/static/media/malaga.a29dd8afb46c55ba7a2b.jpeg",
+    "static/media/newyork.jpeg": "/atlaswingsv2/static/media/newyork.541999db671ae4a5875c.jpeg",
+    "static/media/berline.jpeg": "/atlaswingsv2/static/media/berline.7d7fbe1ea7ed5fcef2ae.jpeg",
+    "static/media/marrakech.jpeg": "/atlaswingsv2/static/media/marrakech.bc19067f44321a10885c.jpeg",
+    "static/media/profilepic3.jpeg": "/atlaswingsv2/static/media/profilepic3.a1b742f3d13e54d92ae7.jpeg",
+    "static/media/profilepic4.jpeg": "/atlaswingsv2/static/media/profilepic4.ff0705ac7db6568cf3c9.jpeg",
+    "static/media/profilepic2.jpeg": "/atlaswingsv2/static/media/profilepic2.88b6744b7627f81941f1.jpeg",
+    "static/media/profilepic1.jpeg": "/atlaswingsv2/static/media/profilepic1.b7da742c14d23c9fb3c7.jpeg",
+    "static/media/slick.svg": "/atlaswingsv2/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/atlaswingsv2/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/atlaswingsv2/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/atlaswingsv2/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/atlaswingsv2/index.html",
-    "main.f855e6bc.css.map": "/atlaswingsv2/static/css/main.f855e6bc.css.map",
-    "main.50f99004.js.map": "/atlaswingsv2/static/js/main.50f99004.js.map",
+    "main.d1fb14ba.css.map": "/atlaswingsv2/static/css/main.d1fb14ba.css.map",
+    "main.9a078099.js.map": "/atlaswingsv2/static/js/main.9a078099.js.map",
     "453.8fbc829b.chunk.js.map": "/atlaswingsv2/static/js/453.8fbc829b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.50f99004.js"
+    "static/css/main.d1fb14ba.css",
+    "static/js/main.9a078099.js"
   ]
 }
